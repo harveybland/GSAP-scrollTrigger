@@ -1,0 +1,57 @@
+/* fade in */
+
+body,
+h1 {
+  margin-bottom: 100vh;
+}
+
+.website-section {
+  /* display: flex;
+  justify-content: center; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.website-section div {
+  margin: 0 10px 10px 0;
+}
+
+.box_1 {
+  width: 600px !important;
+}
+
+.box_2 {
+  width: 200px !important;
+}
+
+.box_3 {
+  width: 200px !important;
+  height: 600px !important;
+}
+
+.box_4 {
+  width: 600px !important;
+  height: 400px !important;
+}
+
+.box_5 {
+  width: 600px !important;
+  height: 190px !important;
+}
+
+.website-section .js-content-opacity {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  box-shadow: 6px 6px 0 rgba(black, 0.1);
+  transition: all 0.2s;
+}
+
+#myDIV {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}

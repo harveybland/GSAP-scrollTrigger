@@ -1,0 +1,22 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.a {
+  background: red;
+}
+.b {
+  background: green;
+}
+.c {
+  opacity: 0;
+  background: blue;
+}

@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  padding-top: 100vh;
+}
+
+.bg-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg.one {
+  background-image: url('https://picsum.photos/id/237/900/1600');
+}
+
+.bg.two {
+  background-image: url('https://picsum.photos/id/217/900/1600');
+}
+
+.bg.three {
+  background-image: url('https://picsum.photos/id/227/900/1600');
+}
+
+.text {
+  display: block;
+  position: relative;
+  height: 100vh;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.spacer {
+  position: relative;
+  height: 50vh;
+  background-color: salmon;
+}

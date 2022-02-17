@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+#container {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.module {
+  height: 100%;
+  width: 100% !important;
+  display: flex;
+}
+
+.green {
+  width: 100%;
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}

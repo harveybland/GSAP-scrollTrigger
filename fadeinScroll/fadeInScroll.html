@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>FadeIn scroll</title>
+  </head>
+  <body>
+    <h1>Scroll Down</h1>
+
+    <div class="website-section">
+      <div class="js-content-opacity box_1"></div>
+      <div class="js-content-opacity box_2"></div>
+    </div>
+    <div class="website-section">
+      <div class="js-content-opacity box_2"></div>
+      <div class="js-content-opacity box_1"></div>
+    </div>
+    <div class="website-section grid">
+      <div class="js-content-opacity box_4"></div>
+      <div class="js-content-opacity box_3"></div>
+      <div style="margin-top: -200px" class="js-content-opacity box_5"></div>
+    </div>
+
+    <div>
+      <button onclick="redBackground()">Red</button>
+      <button onclick="blueBackground()">Blue</button>
+      <button onclick="myFunction()">yets</button>
+    </div>
+    <div>
+      <div id="myDIV"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

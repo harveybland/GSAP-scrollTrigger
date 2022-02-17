@@ -1,0 +1,279 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a1075;
+  padding: 40px;
+}
+
+.space {
+  height: 80vh;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cluster {
+  position: relative;
+  width: 100%;
+  max-width: 874px;
+  height: 792px;
+  margin: 100px auto;
+  background-color: transparent;
+  padding-bottom: 100px;
+}
+
+.clusterPieces {
+  position: absolute;
+}
+
+.circle {
+  width: 100%;
+  max-width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color: #fc659e;
+  left: 214px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.dotsBlue {
+  width: 100%;
+  height: auto;
+  max-width: 494px;
+  max-height: 434px;
+  z-index: 3;
+  left: 0;
+  top: 80px;
+}
+
+.owlHorned {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  max-height: 700px;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fc659e;
+  text-align: right;
+}
+.caption span {
+  color: #ffffff;
+}
+
+#wrappie {
+  width: 960px;
+  height: 792px;
+  margin: 0 auto;
+}
+
+.dotsWhite {
+  width: 100%;
+  height: auto;
+  max-width: 310px;
+  max-height: 588px;
+  z-index: 2;
+  left: 0;
+  top: 400px;
+}
+
+.owlBurrowing {
+  width: 100%;
+  height: auto;
+  max-width: 674px;
+  max-height: 700px;
+  top: 162px;
+  right: 0;
+  z-index: 1;
+}
+
+.triangle {
+  width: 100%;
+  max-width: 448px;
+  height: 446px;
+  left: -28px;
+  top: 0;
+  z-index: 3;
+}
+
+.clusterBurrowing {
+  max-width: 874px;
+  height: 996px;
+}
+
+.spcr300 {
+  padding-bottom: 300px;
+}
+
+@media screen and (max-width: 1025px) {
+  .title {
+    font-size: 60px;
+    line-height: 74px;
+    padding-left: 40px;
+  }
+
+  .cluster {
+    max-width: 600px;
+    height: 550px;
+    margin: 20px auto;
+  }
+  .dotsBlue {
+    max-width: 340px;
+    left: 0;
+    top: 56px;
+  }
+  .owlHorned {
+    max-width: 310px;
+  }
+  .circle {
+    max-width: 246px;
+    height: 246px;
+    left: 146px;
+    top: 300px;
+  }
+  .caption {
+    bottom: 38px;
+    right: 0;
+  }
+
+  .clusterBurrowing {
+    max-width: 600px;
+    height: 678px;
+  }
+  .dotsWhite {
+    max-width: 216px;
+    left: 0;
+    top: 275px;
+  }
+  .owlBurrowing {
+    max-width: 460px;
+    top: 112px;
+  }
+  .triangle {
+    max-width: 307px;
+    height: 304px;
+    left: -14px;
+  }
+  .captionBurrowing {
+    top: 605px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 44px;
+    line-height: 61px;
+  }
+
+  .cluster {
+    max-width: 480px;
+    height: 436px;
+  }
+  .dotsBlue {
+    max-width: 274px;
+    left: 0;
+    top: 45px;
+  }
+  .owlHorned,
+  .owlBurrowing {
+    max-width: 248px;
+  }
+  .circle {
+    max-width: 196px;
+    height: 196px;
+    left: 115px;
+    top: 240px;
+  }
+  .caption {
+    bottom: 25px;
+    right: 0;
+  }
+
+  .clusterBurrowing {
+    max-width: 480px;
+    height: 542px;
+  }
+  .dotsWhite {
+    max-width: 174px;
+    left: 0;
+    top: 220px;
+  }
+  .owlBurrowing {
+    max-width: 369px;
+    top: 88px;
+  }
+  .triangle {
+    max-width: 240px;
+    height: 240px;
+    left: -10px;
+  }
+  .captionBurrowing {
+    top: 482px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .title {
+    font-size: 34px;
+    line-height: 51px;
+    padding-left: 0px;
+  }
+  .clusterPieces {
+    position: relative;
+  }
+
+  .cluster {
+    max-width: 320px;
+    height: 530px;
+  }
+  .dotsBlue {
+    display: none;
+  }
+  .owlHorned {
+    max-width: 320px;
+    top: 0;
+  }
+  .circle {
+    display: none;
+  }
+  .caption {
+    float: right;
+    bottom: 0;
+  }
+
+  .clusterBurrowing {
+    max-width: 320px;
+    height: 268px;
+  }
+  .dotsWhite {
+    display: none;
+  }
+  .owlBurrowing {
+    max-width: 320px;
+    top: 0;
+  }
+  .triangle {
+    display: none;
+  }
+  .captionBurrowing {
+    float: right;
+    top: 0;
+  }
+}
