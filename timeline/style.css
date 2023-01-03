@@ -1,0 +1,225 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.company-timeline {
+  margin: 120px 0;
+}
+
+.company-timeline:before {
+  width: 100%;
+  height: 100vw;
+  content: '';
+  display: none;
+}
+
+.company-timeline .container {
+  max-width: 78.5rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+.company-timeline .timeline-heading {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-bottom: 108px;
+}
+
+.company-timeline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.company-timeline-list {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 45% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.company-timeline-list .company-timeline-year {
+  position: relative;
+  width: 254px;
+  height: 80px;
+  margin-left: auto;
+  overflow: hidden;
+  -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+}
+
+.company-timeline-list .timeline-date {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: block;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1;
+  padding-right: 55px;
+  opacity: 0;
+}
+
+.company-timeline-list .timeline-date .date span:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.company-timeline-list .timeline-date .date span:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.company-timeline-list .timeline-date .date span:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.company-timeline-list .timeline-date .date span:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.company-timeline-list .timeline-date .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company-timeline-list .timeline-date .date span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.company-timeline-list .timeline-date.animate {
+  opacity: 1;
+}
+
+.company-timeline-list .timeline-date.animate .date span {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.company-timeline-list .circle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border: 1px solid #f80964;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.company-timeline-list .circle:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 6px;
+  width: 6px;
+  height: 6px;
+  background-color: #f80964;
+  content: '';
+}
+
+.company-timeline-slider {
+  width: 55%;
+  margin-left: auto;
+  margin-top: 63px;
+  padding-left: 75px;
+  padding-top: 110px;
+  border-left: 1px solid #c2d7da;
+  overflow: visible;
+}
+
+.company-timeline-slider .slick-list {
+  overflow: visible !important;
+}
+
+.company-timeline-slider .slick-track {
+  display: block;
+}
+
+.company-timeline-block {
+  position: relative;
+  display: block;
+  margin-top: 80px;
+  padding-top: 26px;
+}
+
+.company-timeline-block:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.company-timeline-block .timeline-date {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 1;
+  padding-right: 55px;
+  display: none;
+}
+
+.company-timeline-block.has-media {
+  padding-top: 0;
+}
+
+.company-timeline-block.has-media .circle {
+  top: 32px;
+}
+
+.company-timeline-block:first-child .circle {
+  display: none;
+}
+
+.company-timeline-block .circle {
+  position: absolute;
+  left: -84px;
+  top: 32px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #f80964;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.company-timeline-block .circle:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 6px;
+  width: 6px;
+  height: 6px;
+  background-color: #f80964;
+  content: '';
+}
+
+.company-timeline-block h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */
